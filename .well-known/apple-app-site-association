@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9YXC2UV8V6.com.whatspoppin.city",
+        "paths": ["/invite/*"]
+      }
+    ]
+  }
+}
