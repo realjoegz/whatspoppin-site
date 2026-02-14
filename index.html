@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whatspoppin - Find Where's Lit Tonight</title>
+  <meta name="description" content="Real-time nightlife discovery. See which venues are actually busy right now.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    
+    .container {
+      max-width: 480px;
+      text-align: center;
+    }
+    
+    .logo {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #F97316, #FB923C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .tagline {
+      font-size: 18px;
+      color: #a3a3a3;
+      margin-bottom: 32px;
+    }
+    
+    .description {
+      font-size: 16px;
+      color: #737373;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: #F97316;
+      color: #ffffff;
+      padding: 16px 32px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(249, 115, 22, 0.4);
+    }
+    
+    .download-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .coming-soon {
+      display: inline-block;
+      background: #1a1a1a;
+      color: #a3a3a3;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-weight: 500;
+      font-size: 16px;
+      border: 1px solid #262626;
+    }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
+    
+    .feature {
+      background: #141414;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 20px 12px;
+    }
+    
+    .feature-icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    
+    .feature-text {
+      font-size: 13px;
+      color: #a3a3a3;
+    }
+    
+    footer {
+      margin-top: 48px;
+      display: flex;
+      gap: 24px;
+    }
+    
+    footer a {
+      color: #737373;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    
+    footer a:hover {
+      color: #a3a3a3;
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 28px;
+      }
+      
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🔥</div>
+    <h1>Whatspoppin</h1>
+    <p class="tagline">Find where's lit tonight</p>
+    
+    <p class="description">
+      Stop wasting nights on dead venues. Get real-time updates on which spots are actually busy, powered by people who are there right now.
+    </p>
+    
+    <div class="coming-soon">Coming Soon to App Store</div>
+    
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">📍</div>
+        <div class="feature-text">Real-time venue status</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">👥</div>
+        <div class="feature-text">See where friends are</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🎯</div>
+        <div class="feature-text">Never miss the vibe</div>
+      </div>
+    </div>
+    
+    <footer>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Service</a>
+    </footer>
+  </div>
+</body>
+</html>
